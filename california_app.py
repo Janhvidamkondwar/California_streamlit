@@ -3,7 +3,7 @@ import joblib
 import streamlit as st         
 
 #--------------------------------------
-#model load karna
+#load the model
 obj=joblib.load('california.joblib')  #is dict
 model=obj['model']
 cols=obj['columns']
